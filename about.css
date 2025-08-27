@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.d1{
+    
+    width: 100%;
+    height: 100vh;
+}
+.back{
+    background-image: url(Pics/dubai.jpg);
+    background-size: cover;
+    width: 100%;
+    height:50%;
+}
+.name{
+    display: flex;
+    
+}
+.p1{
+    font-size: 18px;
+    padding: 8px;
+    text-align: justify;
+}
+h2{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.logo{
+    font-size: 25px;
+    color: black;
+    padding: 12px;
+}
+h3{
+    color: black;
+    padding: 8px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    
+}
+h1{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    font-size: 18px;
+}
+.img{
+    display:none;
+}
+
+footer{
+    background-color:black ;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.p6{
+    font-size: 22px;
+    padding: 8px;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    padding: 12px;
+}
+.ilogo{
+    font-size:33px;
+    
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.data{
+    width: 80%;
+    
+    border-radius: 12px;
+}
+@media (min-width:768px){
+    .p1{
+    font-size: 20px;
+    padding: 8px;
+    text-align: justify;
+}
+
+}
+@media (min-width:1024px){
+    .back{
+    background-image: url(Pics/194288695f4c679dfad1fc0561397596.jpg);
+    background-size: cover;
+    width: 100%;
+    height:70%;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;   
+}
+.p1{
+    font-size: 18px;
+    padding: 8px;
+    text-align: justify;
+}
+
+.info{
+    width:100%;
+}
+
+h2{
+    font-size: 30px;
+    padding: 12px;
+}
+
+}
